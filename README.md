@@ -38,3 +38,9 @@ To make your plugin awesome, we also suggest:
 * Include unit tests.
 
 The [cesium-materials-pack](https://github.com/AnalyticalGraphicsInc/cesium-materials-pack) plugin is a good example to follow.
+
+**What's the difference between a plugin and a core Cesium feature?**
+
+A plugin lives outside the main [Cesium repo](https://github.com/AnalyticalGraphicsInc/cesium) and is developed and licensed separately.  Creating a plugin does not require the Cesium [Contributor License Agreement](https://github.com/AnalyticalGraphicsInc/cesium/blob/master/CONTRIBUTING.md) (CLA) or strictly following the Cesium coding, testing, and documentation conventions.  A plugin may also contain functionality that is not core to Cesium or third-party dependencies that would increase the size of Cesium too much to include by default.
+
+If you have a plugin that would make a good core Cesium feature, let us know on the [forum](http://cesiumjs.org/forum.html).  A core Cesium feature has the benefit of being maintined with Cesium itself and included in the each release.
