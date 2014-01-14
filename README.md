@@ -18,9 +18,7 @@ Plugins are listed on [cesiumjs.org](http://cesiumjs.org/).  Each plugin has doc
 
 **How do I list my plugin with the plugins on cesium.js?**
 
-_TODO: add specific details_
-
-Fork this repo, add your plugin to plugins.md, and open a pull request.  We'll review and merge it promptly and your plugin will soon be listed on cesiumjs.org.  We'll also help promote your plugin on the cesium  [forum](http://cesiumjs.org/forum.html), [blog](http://cesiumjs.org/blog.html), and [twitter](https://twitter.com/cesiumjs).
+Fork this repo, add your plugin to [plugins.html](plugins.html) and images to a new subdirectory in [images](images/), and open a pull request.  We'll review and merge it promptly and your plugin will soon be listed on cesiumjs.org.  We'll also help promote your plugin on the cesium  [forum](http://cesiumjs.org/forum.html), [blog](http://cesiumjs.org/blog.html), and [twitter](https://twitter.com/cesiumjs).
 
 We ask that each plugin follow these three simple guidelines:
 
