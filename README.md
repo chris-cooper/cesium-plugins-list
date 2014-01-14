@@ -22,7 +22,7 @@ Fork this repo, add your plugin to [index.html](index.html) and images to a new 
 
 We ask that each plugin follow these three simple guidelines:
 
-* State what version(s) of Cesium it is compatiable with.
+* State what version(s) of Cesium it is compatible with.
 * State what license it uses and the licenses of any third-party code.  Cesium uses [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html), which may be a good choice for your plugin.  Although we expect most plugins will be open-source, closed-source plugins are allowed.
 * Include documentation on how to install and use it.  For small plugins, this is as simple as a README.md.
 
