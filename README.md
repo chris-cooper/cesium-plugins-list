@@ -4,7 +4,7 @@
 </a>
 </p>
 
-This repo contains the list of Cesium plugins used to generate the plugin list on [cesiumjs.org](http://cesiumjs.org/).  Open a pull request to add yours.
+This repo contains the list of Cesium plugins used to generate the plugin list on [cesiumjs.org](http://cesiumjs.org/plugins).  Open a pull request to add yours.
 
 **What is a Cesium plugin?**
 
@@ -14,11 +14,11 @@ A plugin may extend Cesium by extending Cesium types like [imagery providers](ht
 
 **How do I use plugins?**
 
-Plugins are listed on [cesiumjs.org](http://cesiumjs.org/).  Each plugin has documentation for installing and using it.  Getting started can be as simple as including a `.js` file in your html.
+Plugins are listed on [cesiumjs.org](http://cesiumjs.org/plugins).  Each plugin has documentation for installing and using it.  Getting started can be as simple as including a `.js` file in your html.
 
 **How do I list my plugin with the plugins on cesium.js?**
 
-Fork this repo, add your plugin to [plugins.html](plugins.html) and images to a new subdirectory in [images](images/), and open a pull request.  We'll review and merge it promptly and your plugin will soon be listed on cesiumjs.org.  We'll also help promote your plugin on the cesium  [forum](http://cesiumjs.org/forum.html), [blog](http://cesiumjs.org/blog.html), and [twitter](https://twitter.com/cesiumjs).
+Fork this repo, add your plugin to [index.html](index.html) and images to a new subdirectory in [images](images/), and open a pull request.  We'll review and merge it promptly and your plugin will soon be listed on cesiumjs.org.  We'll also help promote your plugin on the cesium  [forum](http://cesiumjs.org/forum.html), [blog](http://cesiumjs.org/blog.html), and [twitter](https://twitter.com/cesiumjs).
 
 We ask that each plugin follow these three simple guidelines:
 
