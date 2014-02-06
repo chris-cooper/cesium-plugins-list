@@ -16,14 +16,9 @@ License: Apache 2.0. Free for commercial and non-commercial use. See LICENSE.md.
 After that, the GeoserverTerrainProvider will determine the capabilities of geoserver (WMS request getCapabilities) and will be ready to provide terrain data.
 
 #Example
-<!DOCTYPE html>
 
-<html>
-    <head>
-    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-        <script src="/path/to/Cesium.js" type="text/javascript"></script>
-        <script src="/path/to/GeoserverTerrainProvider.js" type="text/javascript"></script>
-    </head>
+    <script src="/path/to/Cesium.js" type="text/javascript"></script>
+    <script src="/path/to/GeoserverTerrainProvider.js" type="text/javascript"></script>
     <body>
 	<canvas id="cesiumContainer"></canvas>
 	<script>
@@ -40,7 +35,6 @@ After that, the GeoserverTerrainProvider will determine the capabilities of geos
 	  centralBody.terrainProvider = terrainProvider; 
 	</script>
     </body>
-</html>
 Where
 - "http://localhost:8080/geoserver/elevation/wms" is the url to go to the wms of "elevation" workspace stored in geoserver;
 - "SRTM90" is the name of the layer in "elevation" workspace
